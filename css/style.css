@@ -1,0 +1,47 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+.menu li{
+    list-style-type: none;
+    margin: 40px;
+    font-weight:900;
+    font-size: 18px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.blogmenu{
+    display: flex;
+    flex-direction: row;
+ }
+.blogmenu h1{
+    margin: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    padding-right: 100px;
+
+}
+.menu a:hover{
+    color: orange;
+}
+.germany{
+     width: 1200px;
+    height: 1000px;
+}
+
+.frankphoto{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 370px;
+}
+.glavn:hover .submenu{
+    display: block;
+}
